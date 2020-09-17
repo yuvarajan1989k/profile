@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(245, 243, 240);
+    color: black;
+    font-size: 15px;
+    line-height: 30px;
+}
+h1 {
+    font-size: 25px;
+    color: #1fab89;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 20px;
+    color: #1fab89;
+    font-weight: bold;
+}
+
+a {
+  text-decoration: none;  
+}
+
+a:hover {
+  color: green;
+}
+
+
+
+/*.card {
+  width: 300px;
+  margin: 0 auto;
+  color: black;
+  text-align: justify;
+}*/
+
+.profile-img {
+  border-radius: 50%;
+}
+
+.cards {
+  background-color: white;
+  padding: 24px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  width: 500px;
+  margin: 30px auto;
+  
+}
+.card1 {
+  text-align: center;
+}
+.listinline ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+.listinline li {
+  list-style: none;
+  display: inline-block;
+  font-size: 32px;
+  margin: 4px;
+}
+
+.listinline a {
+ color: rgb(220,220,220);
+}
+
+.listinline a:hover {
+  color: green;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .cards {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .cards {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .cards {
+    width: 300px;
+  }
+}
